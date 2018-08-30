@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <div th:replace="fragments/header::head"></div>
+</head>
+<body>
+    <div th:replace="fragments/header::header"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center" style="margin-top: 10%;border: 1px solid gray;padding: 10px;">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" th:text="#{label.email}"></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted" th:text="#{label.email.security}"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" th:text="#{label.password}"></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1" th:text="#{label.remember.me}"></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" th:text="#{label.sign_in}"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div th:replace="fragments/footer::footer"></div>
+</body>
+</html>

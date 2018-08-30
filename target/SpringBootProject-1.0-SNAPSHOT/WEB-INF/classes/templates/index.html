@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <div th:replace="fragments/header::head"></div>
+</head>
+<body>
+    <div th:insert="fragments/header :: header"></div>
+    <div class="container">
+        <p th:text="${message}"></p>
+        <strong th:text="#{label.name}"></strong>
+        <a th:href="@{''(lang=az)}">Azerbaijan</a>
+        &nbsp;|&nbsp;
+        <a th:href="@{''(lang=en)}">English</a>
+    </div>
+    <div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
