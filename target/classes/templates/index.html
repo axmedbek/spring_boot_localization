@@ -5,14 +5,81 @@
     <div th:replace="fragments/header::head"></div>
 </head>
 <body>
-    <div th:insert="fragments/header :: header"></div>
+    <div th:replace="fragments/header :: header"></div>
     <div class="container">
-        <p th:text="${message}"></p>
-        <strong th:text="#{label.name}"></strong>
-        <a th:href="@{''(lang=az)}">Azerbaijan</a>
-        &nbsp;|&nbsp;
-        <a th:href="@{''(lang=en)}">English</a>
+        <div class="row">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th th:text="#{label.user.name}"></th>
+                    <th th:text="#{label.user.surname}"></th>
+                    <th th:text="#{label.user.age}"></th>
+                    <th>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                Add
+                            </button>
+                        </div>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <th:block th:each="user : ${users}">
+                    <tr>
+                        <td th:text="${user.id}"></td>
+                        <td th:text="${user.name}"></td>
+                        <td th:text="${user.surname}"></td>
+                        <td th:text="${user.age}"></td>
+                    </tr>
+                </th:block>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add New User</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="addFrom" action="#" th:action="@{/user/save}" th:object="${user}" method="post">
+
+                            <div class="form-group">
+                                <label th:text="#{label.user.name}"></label>
+                                <input type="text" class="form-control" th:field="*{name}">
+                            </div>
+                            <div class="form-group">
+                                <label>Surname</label>
+                                <input type="text" class="form-control" th:field="*{surname}">
+                            </div>
+                            <div class="form-group">
+                                <label>Age</label>
+                                <input type="text" class="form-control" th:field="*{age}">
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" th:text="#{label.user.close}"></button>
+                        <button type="submit" class="btn btn-primary addBtn" th:text="#{label.user.save}"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div th:replace="fragments/footer :: footer"></div>
+    <script>
+
+        $('.addBtn').on('click',function(){
+            $('#addFrom').submit();
+        });
+    </script>
 </body>
 </html>
