@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<div class="modal-header">
+    <h5 class="modal-title" id="mainModalLabel"
+        th:text="${action} == 'add' ? #{label.user.add.title} : #{label.user.edit.title}"></h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <form id="addFrom" action="#" th:action="@{/user/save}" th:object="${user}" method="post" enctype="multipart/form-data">
+
+        <input type="hidden" th:field="*{id}">
+        <div class="form-group">
+            <label th:text="#{label.user.name}"></label>
+            <input type="text" class="form-control" th:field="*{name}">
+        </div>
+        <div class="form-group">
+            <label th:text="#{label.user.surname} "></label>
+            <input type="text" class="form-control" th:field="*{surname}">
+        </div>
+        <div class="form-group">
+            <label>İstifadəçi adı</label>
+            <input type="text" class="form-control" th:field="*{username}">
+        </div>
+        <div class="form-group">
+            <label>Parol</label>
+            <input type="text" class="form-control" th:field="*{password}">
+        </div>
+        <div class="form-group">
+            <label th:text="#{label.user.age} "></label>
+            <input type="text" class="form-control" th:field="*{age}">
+        </div>
+
+        <div class="form-group">
+            <label>Vəzifə </label>
+            <input type="text" class="form-control" th:field="*{position}">
+        </div>
+
+        <div class="form-group">
+            <label>Haqqında </label>
+            <textarea class="form-control"  rows="3" th:field="*{description}"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Şəkil yüklə</label>
+            <input type="file" class="form-control-file" th:field="*{file}" accept="image/*">
+        </div>
+
+    </form>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal" th:text="#{label.user.close}"></button>
+    <button type="submit" class="btn btn-primary addBtn"
+            th:text="${action} == 'add' ? #{label.user.save.button} : #{label.user.edit.button}"></button>
+</div>
+<script>
+    $('.addBtn').on('click', function () {
+        $('#addFrom').submit();
+    });
+</script>
+</html>

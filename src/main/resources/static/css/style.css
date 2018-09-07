@@ -1,0 +1,29 @@
+body {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-color: #8EC5FC;*/
+    /*background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);*/
+}
+
+nav{
+    /*background-color: #8EC5FC;*/
+    /*background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);*/
+}
+
+.login_text_header{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 35%;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.login_text_span{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 38%;
+    letter-spacing: 5px;
+    font-style: italic;
+}
