@@ -4,29 +4,32 @@
     <div th:replace="fragments/header::head"></div>
 </head>
 <body>
-    <div th:replace="fragments/header::header"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center" style="margin-top: 10%;border: 1px solid gray;padding: 10px;">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1" th:text="#{label.email}"></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted" th:text="#{label.email.security}"></small>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" th:text="#{label.password}"></label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1" th:text="#{label.remember.me}"></label>
-                    </div>
-                    <button type="submit" class="btn btn-primary" th:text="#{label.sign_in}"></button>
-                </form>
-            </div>
+<div style="position: absolute;height: 100%;width: 75%;">
+    <h3 class="login_text_header">Bakı Müasİr Məktəbİ</h3>
+    <span class="login_text_span">"Təhsil millətin gələcəyidir!"</span>
+    <img th:src="@{/images/university-background.jpg}" alt="" src="#" style="width: 100%;height: 100%;">
+</div>
+<div style="width: 20%;float: right;margin-right: 20px;">
+    <img style="margin-top: 30%;margin-bottom: 50px;width: 260px;filter: hue-rotate(126deg);" src="#" th:src="@{/images/modern_school_logo.png}" alt="">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Poçt ünvanı və ya istifadəçi adı</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="username" aria-describedby="emailHelp" placeholder="Enter email">
         </div>
-    </div>
-    <div th:replace="fragments/footer::footer"></div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Şifrə</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Xatırla məni</label>
+        </div>
+        <button style="margin-top: 10px;" type="submit" class="btn btn-primary">Daxil ol</button>
+    </form>
+</div>
+<div th:replace="fragments/footer::footer"></div>
+<script>
+    $('.footer').parents('div:eq(0)').css('right', '80px');
+</script>
 </body>
 </html>
