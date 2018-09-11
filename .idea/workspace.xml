@@ -7,36 +7,392 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcd92394-eeec-48e6-beaf-a37dc2844477" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/admin/MskRolesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/utils/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/bootstrap-tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/attachment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-thumb-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-thumb-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-thumb-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/blog/blog-thumb-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/calander.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/placeholder-thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-thumb-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-thumb-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-thumb-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/product/product-thumb-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/proschool_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/user-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/user-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/user-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/user-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/user-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/img/video-call.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap-tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery.fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery.slimscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/modernizr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/css/lg-fb-comment-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/css/lg-fb-comment-box.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/css/lg-transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/css/lg-transitions.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/css/lightgallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/css/lightgallery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/fonts/lg.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/fonts/lg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/fonts/lg.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/fonts/lg.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/img/video-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/img/vimeo-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/img/youtube-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/js/lightgallery-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/js/lightgallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/js/lightgallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/light-gallery/js/lightgallery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/morris/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/morris/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/raphael/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ar-AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ar-AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-bg-BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-bg-BG.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ca-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ca-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-cs-CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-cs-CZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-da-DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-da-DK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-de-DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-de-DE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-el-GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-el-GR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-es-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-es-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-es-EU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-es-EU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-fa-IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-fa-IR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-fi-FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-fi-FI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-fr-FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-fr-FR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-gl-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-gl-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-he-IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-he-IL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-hr-HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-hr-HR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-hu-HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-hu-HU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-id-ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-id-ID.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-it-IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-it-IT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ja-JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ja-JP.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ko-KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ko-KR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-lt-LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-lt-LT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-lt-LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-lt-LV.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-mn-MN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-mn-MN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-nb-NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-nb-NO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-nl-NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-nl-NL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-pl-PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-pl-PL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-pt-PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ro-RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ro-RO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ru-RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ru-RU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sk-SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sk-SK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sl-SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sl-SI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sr-RS-Latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sr-RS-Latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sr-RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sr-RS.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sv-SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-sv-SE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ta-IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-ta-IN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-th-TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-th-TH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-tr-TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-tr-TR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-uk-UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-uk-UA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-vi-VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-vi-VN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/lang/summernote-zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote-bs4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote-bs4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote-lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote-lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/dist/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-ar-AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-bg-BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-ca-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-cs-CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-da-DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-de-DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-el-GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-es-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-es-EU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-fa-IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-fi-FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-fr-FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-gl-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-he-IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-hr-HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-hu-HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-id-ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-it-IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-ja-JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-ko-KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-lt-LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-lt-LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-mn-MN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-nb-NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-nl-NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-pl-PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-ro-RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-ru-RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-sk-SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-sl-SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-sr-RS-Latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-sr-RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-sv-SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-ta-IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-th-TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-tr-TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-uk-UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-vi-VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/lang/summernote-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/meteor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/meteor/package-standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/meteor/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/meteor/publish.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/meteor/runtests.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/meteor/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/plugin/databasic/summernote-ext-databasic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/plugin/databasic/summernote-ext-databasic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/plugin/hello/summernote-ext-hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/plugin/specialchars/summernote-ext-specialchars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/align-indent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/align-outdent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/align.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/arrow-circle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/arrow-circle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/arrow-circle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/arrow-circle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/arrows-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/arrows-h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/arrows-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/caret.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/chain-broken.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/col-after.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/col-before.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/col-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/eraser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/frame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/magic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/menu-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/orderedlist.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/picture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/redo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/row-above.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/row-below.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/row-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/special-character.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/strikethrough.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/subscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/summernote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/superscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/templates/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/templates/summernote.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/text-height.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/undo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/unorderedlist.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/icons/video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/Context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/core/agent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/core/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/core/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/core/func.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/core/key.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/core/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/core/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/editing/Bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/editing/History.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/editing/Style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/editing/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/editing/Typing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/AirPopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/AutoLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/AutoSync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Codeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Handle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/HelpDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/HintPopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/ImageDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/ImagePopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/LinkDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/LinkPopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Statusbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/TablePopover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/Toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/module/VideoDialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/base/summernote-en-US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/bs3/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/bs3/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/bs4/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/bs4/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/intro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/lite/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/lite/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/lite/ui/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/lite/ui/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/lite/ui/popover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/lite/ui/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/outro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/js/summernote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/elements.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/all.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/btn-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/dropdown.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/form.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/mixins/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/modal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/popover.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/toolbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/tooltip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/lite-ui/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/summernote-bs4.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/summernote-bs4.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/summernote-lite.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/summernote.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/plugins/summernote/src/less/summernote.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/msk/msk_roles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/errors/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/moderator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axmedbek/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/config/SecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/api/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/api/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/axmedbek/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/axmedbek/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/model/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/axmedbek/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/axmedbek/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_az.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages_az.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/com/axmedbek/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/com/axmedbek/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/com/axmedbek/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/com/axmedbek/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/i18n/messages_az.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/i18n/messages_az.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/i18n/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/i18n/messages_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/WEB-INF/classes/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/axmedbek/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axmedbek/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/axmedbek/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/axmedbek/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/messages_az.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/i18n/messages_az.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/i18n/messages_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,71 +407,76 @@
     <session id="-1575501987">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.33" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.41" value="2" />
-          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.44" value="2" />
-          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="78" />
-          <entry key="HTML" value="5123" />
-          <entry key="JAVA" value="5255" />
+          <entry key="HTML" value="6634" />
+          <entry key="JAVA" value="6682" />
           <entry key="JavaScript" value="229" />
           <entry key="Markdown" value="44" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="PLAIN_TEXT" value="120" />
           <entry key="Properties" value="769" />
-          <entry key="XML" value="81" />
+          <entry key="SpEL" value="1" />
+          <entry key="XML" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="40" />
+          <entry key="CLASS" value="13" />
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="83" />
+          <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="85" />
           <entry key="JavaScript" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="33" />
-          <entry key="XML" value="5" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="34" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="78" />
-          <entry key="gitignore" value="16" />
-          <entry key="html" value="5123" />
-          <entry key="java" value="5255" />
+          <entry key="gitignore" value="30" />
+          <entry key="html" value="6634" />
+          <entry key="java" value="6683" />
           <entry key="js" value="229" />
           <entry key="md" value="44" />
           <entry key="properties" value="769" />
-          <entry key="txt" value="49" />
-          <entry key="xml" value="81" />
+          <entry key="txt" value="90" />
+          <entry key="xml" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="11" />
-          <entry key="css" value="4" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="40" />
-          <entry key="java" value="66" />
+          <entry key="class" value="13" />
+          <entry key="css" value="5" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="83" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="85" />
           <entry key="js" value="3" />
           <entry key="md" value="1" />
           <entry key="png" value="2" />
-          <entry key="properties" value="33" />
-          <entry key="xml" value="5" />
+          <entry key="properties" value="34" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -123,31 +484,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserDetailsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/msk/msk_roles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="31" column="128" lean-forward="true" selection-start-line="31" selection-start-column="128" selection-end-line="31" selection-end-column="128" />
+            <state relative-caret-position="322">
+              <caret line="264" column="72" lean-forward="true" selection-start-line="264" selection-start-column="72" selection-end-line="264" selection-end-column="72" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#div#1;n#div#2;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="36" column="117" lean-forward="true" selection-start-line="36" selection-start-column="117" selection-end-line="36" selection-end-column="117" />
+              <folding>
+                <element signature="n#div#1;n#div#2;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/modals/user_add_edit_info.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/controller/admin/MskRolesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-245">
-              <caret line="27" column="75" lean-forward="true" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+            <state relative-caret-position="562">
+              <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,6 +532,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>show</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -173,17 +548,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/i18n/messsages_az.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/dao/TeacherDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/TestInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/TestAsbtract.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test2/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/SpringBootRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/api/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/modal.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/script.js" />
         <option value="$PROJECT_DIR$/src/main/resources/i18n/messages_az.properties" />
@@ -191,21 +563,36 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/modals/user_info.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/model/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/dao/RoleDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/SecurityService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/config/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/SecurityServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/modals/user_add_edit_info.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/model/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/api/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/moderator.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/errors/403.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/config/SecurityConfiguration.java" />
+        <option value="$USER_HOME$/İndirilenler/admin/preadmin/light/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/head.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/sidebar.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/utils/Helper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/axmedbek/controller/admin/MskRolesController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/msk/msk_roles.html" />
       </list>
     </option>
   </component>
@@ -247,9 +634,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,26 +674,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="axmedbek" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="axmedbek" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="axmedbek" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
@@ -319,6 +684,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="axmedbek" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
@@ -326,32 +692,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
@@ -360,6 +700,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="msk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
@@ -370,27 +739,22 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="fragments" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringBootProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="modals" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="login&#9;FILE&#9;jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/javax/security/auth/login&#10;Role&#9;FILE&#9;file:///home/axmedbek/IdeaProjects/SpringBootProject/src/main/java/com/axmedbek/model/Role.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536332250056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536677288409" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -401,11 +765,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/admin/img" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/admin" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -563,7 +929,12 @@
       <workItem from="1536218614658" duration="554000" />
       <workItem from="1536237579819" duration="13996000" />
       <workItem from="1536302239556" duration="19623000" />
-      <workItem from="1536323310708" duration="4853000" />
+      <workItem from="1536323310708" duration="7567000" />
+      <workItem from="1536558003026" duration="514000" />
+      <workItem from="1536564871530" duration="12239000" />
+      <workItem from="1536646756567" duration="10000" />
+      <workItem from="1536647022121" duration="37000" />
+      <workItem from="1536661519555" duration="11416000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate Integration was added">
       <created>1535639791100</created>
@@ -600,17 +971,30 @@
       <option name="project" value="LOCAL" />
       <updated>1535641206569</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1536332420622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536332420622</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore file added to project">
+      <created>1536383444106</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536383444106</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84902000" />
+    <option name="totallyTimeSpent" value="111832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29388028" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23268326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -621,7 +1005,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49899125" weight="0.38896367" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49899125" weight="0.5181696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.487214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,7 +1015,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50100875" side_tool="true" weight="0.38896367" />
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32885906" />
-      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32974428" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32974428" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32839838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -690,7 +1074,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hibernate Integration was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate Integration was added" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="gitignore file added to project" />
+    <MESSAGE value="change v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="change v1" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -702,71 +1089,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="161">
-            <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/dao/TeacherDao.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="663" column="10" selection-start-line="663" selection-start-column="10" selection-end-line="663" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test2/Test2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/TestAsbtract.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/TestInterface.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.9.RELEASE/spring-data-jpa-2.0.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/SpringBootRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="24" lean-forward="true" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/controller/api/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/Level.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -831,20 +1153,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_en.properties">
+      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages_az.properties">
+      <provider editor-type-id="ResourceBundle" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/imagesarizona7324.png" />
     <entry file="file://$PROJECT_DIR$/target/SpringBootProject-1.0-SNAPSHOT/images/arizona4466.png" />
@@ -855,44 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/modals/user_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="859">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="71" lean-forward="true" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#4;n#tr#0;n#th:block#0;n#tbody#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="81" selection-start-line="11" selection-start-column="81" selection-end-line="11" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -900,72 +1184,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/model/Role.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/SecurityService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/SecurityServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/modals/user_add_edit_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-245">
+          <caret line="27" column="75" lean-forward="true" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/model/User.java">
+    <entry file="file://$PROJECT_DIR$/SpringBootProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
-          <caret line="135" column="33" selection-start-line="135" selection-start-column="33" selection-end-line="135" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3312#3313#0" expanded="true" />
-            <element signature="e#3360#3361#0" expanded="true" />
-            <element signature="e#3400#3401#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
-            <element signature="e#3466#3467#0" expanded="true" />
-            <element signature="e#3514#3515#0" expanded="true" />
-            <element signature="e#3554#3555#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#3634#3635#0" expanded="true" />
-            <element signature="e#3696#3697#0" expanded="true" />
-            <element signature="e#3750#3751#0" expanded="true" />
-            <element signature="e#3785#3786#0" expanded="true" />
-            <element signature="e#3813#3814#0" expanded="true" />
-            <element signature="e#3858#3859#0" expanded="true" />
-            <element signature="e#3892#3893#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/javax/security/auth/login/LoginContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3726">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/javax/security/auth/login/LoginException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+        <state relative-caret-position="414">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3281#3282#0" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/dao/RoleDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="299">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -977,27 +1264,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/dao/RoleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="92">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/SecurityService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/SecurityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="422">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1010,32 +1287,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/auth/service/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="31" column="128" lean-forward="true" selection-start-line="31" selection-start-column="128" selection-end-line="31" selection-end-column="128" />
+        <state relative-caret-position="184">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/moderator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/errors/403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/config/SecurityConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/admin/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/controller/api/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="184">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/modals/user_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/İndirilenler/admin/preadmin/light/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="165" column="29" lean-forward="true" selection-start-line="158" selection-start-column="24" selection-end-line="165" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/fragments/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#th:block#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/utils/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="93" column="70" lean-forward="true" selection-start-line="93" selection-start-column="70" selection-end-line="93" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="284">
+          <caret line="130" column="30" lean-forward="true" selection-start-line="130" selection-start-column="30" selection-end-line="130" selection-end-column="30" />
+          <folding>
+            <element signature="e#5142#5143#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/modals/user_add_edit_info.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/fragments/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="27" column="75" lean-forward="true" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        <state relative-caret-position="115">
+          <caret line="5" column="95" lean-forward="true" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="95" column="13" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="36" column="117" lean-forward="true" selection-start-line="36" selection-start-column="117" selection-end-line="36" selection-end-column="117" />
+          <folding>
+            <element signature="n#div#1;n#div#2;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/msk/msk_roles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="264" column="72" lean-forward="true" selection-start-line="264" selection-start-column="72" selection-end-line="264" selection-end-column="72" />
+          <folding>
+            <element signature="n#div#1;n#div#2;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/axmedbek/controller/admin/MskRolesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

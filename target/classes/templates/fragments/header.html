@@ -24,6 +24,12 @@
         <a th:href="@{''(lang=az)}">Azerbaijan</a>
         &nbsp;|&nbsp;
         <a th:href="@{''(lang=en)}">English</a>
+        <!-- to select specific role for privlegia and use hasAuthority('ADMIN') for example-->
+        <div style="right: 2%;position: absolute;" class="text-right" sec:authorize="isAuthenticated()">
+            <form th:action="@{/logout}">
+                <button class="btn btn-danger btn-sm" style="font-weight: bold;">Logout</button>
+            </form>
+        </div>
         <hr>
     </nav>
 </th:block>

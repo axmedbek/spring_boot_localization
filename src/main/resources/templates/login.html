@@ -11,19 +11,19 @@
 </div>
 <div style="width: 20%;float: right;margin-right: 20px;">
     <img style="margin-top: 30%;margin-bottom: 50px;width: 260px;filter: hue-rotate(126deg);" src="#" th:src="@{/images/modern_school_logo.png}" alt="">
-    <form>
+    <form th:action="@{/login}"  method="post">
         <div class="form-group">
-            <label for="exampleInputEmail1">Poçt ünvanı və ya istifadəçi adı</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" name="username" aria-describedby="emailHelp" placeholder="Enter email">
+            <label for="username">Poçt ünvanı və ya istifadəçi adı</label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Enter username">
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Şifrə</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+            <label for="password">Şifrə</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
         </div>
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Xatırla məni</label>
-        </div>
+        <!--<div class="form-check">-->
+            <!--<input type="checkbox" class="form-check-input" id="exampleCheck1">-->
+            <!--<label class="form-check-label" for="exampleCheck1">Xatırla məni</label>-->
+        <!--</div>-->
         <button style="margin-top: 10px;" type="submit" class="btn btn-primary">Daxil ol</button>
     </form>
 </div>

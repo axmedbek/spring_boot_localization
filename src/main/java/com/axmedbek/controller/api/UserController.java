@@ -12,8 +12,12 @@ import java.util.Optional;
 @RequestMapping("/api")
 public class UserController {
 
+    private final UserDao userDao;
+
     @Autowired
-    private UserDao userDao;
+    public UserController(UserDao userDao) {
+        this.userDao = userDao;
+    }
 
     @GetMapping(value = "/users")
     public List<User> allUsers(){

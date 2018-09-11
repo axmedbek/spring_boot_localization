@@ -71,6 +71,12 @@
             <version>2.3.0</version>
         </dependency>
 
+        <!-- for spring security to use in thymeleaf view resolver-->
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity4</artifactId>
+        </dependency>
+
     </dependencies>
 
 

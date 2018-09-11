@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -27,17 +29,19 @@ import java.util.*;
 @Controller
 public class HomeController {
 
-    @Autowired
-    @Qualifier("userDaoRepository")
-    private UserDao userDao;
+    private final UserDao userDao;
+    private final RoleDao roleDao;
+    private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
-    @Qualifier("roleRepository")
-    private RoleDao roleDao;
-
-    @Autowired
-    @Qualifier("passwordEncoder")
-    private BCryptPasswordEncoder bCryptPasswordEncoder;
+    public HomeController
+            (@Qualifier("roleRepository") RoleDao roleDao,
+             @Qualifier("passwordEncoder") BCryptPasswordEncoder bCryptPasswordEncoder,
+             @Qualifier("userDaoRepository") UserDao userDao) {
+        this.roleDao = roleDao;
+        this.bCryptPasswordEncoder = bCryptPasswordEncoder;
+        this.userDao = userDao;
+    }
 
     @RequestMapping("/")
     public String homePage(Model model) {
@@ -65,27 +69,32 @@ public class HomeController {
 
     @RequestMapping(value = "/user/save", method = RequestMethod.POST)
     public String addUserProcess(@ModelAttribute User user, HttpServletRequest request) {
-        String rootDirectory = request.getSession().getServletContext().getRealPath("/images/");
-        MultipartFile multipartFile = user.getFile();
-        File uploadPathDir = new File(rootDirectory);
-        if (!uploadPathDir.exists()){
-            uploadPathDir.mkdirs();
-        }
-        String fileName = multipartFile.getOriginalFilename();
-        String fileExtension = multipartFile.getContentType().split("/")[1];
-        if (fileName!= null && fileName.length() > 0){
-            try {
-                int random = (1000 + (int) (Math.random() * 9000));
-                String imagePath = user.getName().toLowerCase() + random;
-                Path path = Paths.get(rootDirectory + imagePath + "." + fileExtension);
-                multipartFile.transferTo(new File(path.toString()));
-                user.setImage(imagePath + "." + fileExtension);
-            } catch (IOException e) {
-                e.printStackTrace();
+        if (!user.getFile().isEmpty()){
+            String rootDirectory = request.getSession().getServletContext().getRealPath("/images/");
+            MultipartFile multipartFile = user.getFile();
+            File uploadPathDir = new File(rootDirectory);
+            if (!uploadPathDir.exists()){
+                uploadPathDir.mkdirs();
+            }
+            String fileName = multipartFile.getOriginalFilename();
+            String fileExtension = multipartFile.getContentType().split("/")[1];
+            if (fileName!= null && fileName.length() > 0){
+                try {
+                    int random = (1000 + (int) (Math.random() * 9000));
+                    String imagePath = user.getName().toLowerCase() + random;
+                    Path path = Paths.get(rootDirectory + imagePath + "." + fileExtension);
+                    multipartFile.transferTo(new File(path.toString()));
+                    user.setImage(imagePath + "." + fileExtension);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-        user.setRoles(new HashSet<>(roleDao.findAll()));
+        Optional<Role> userRole = roleDao.findById(3L);
+        HashSet<Role> roles = new HashSet<>();
+        roles.add(userRole.get());
+        user.setRoles(roles);
         userDao.save(user);
         return "redirect:/";
     }
@@ -116,6 +125,21 @@ public class HomeController {
         Map<String, Object> maps = new HashMap<>();
         maps.put("status", "ok");
         return maps;
+    }
+
+    @GetMapping("/admin")
+    public String adminPage(){
+        return "admin/index";
+    }
+
+    @GetMapping("/moderator")
+    public String moderatorPage(){
+        return "moderator";
+    }
+
+    @GetMapping("/403")
+    public String page_403(){
+        return "errors/403";
     }
 
 }
